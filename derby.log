@@ -1,0 +1,16 @@
+----------------------------------------------------------------
+2010-12-16 10:11:34.377 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.1.1 - (764942): instance a816c00e-012c-eea9-cc76-0000046dd388
+on database directory /Users/apostolis/Documents/workspace/apatar_V_1.12.12_repo/tempdb/application/temp_db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2010-12-16 10:11:37.492 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.1.1 - (764942): instance 601a400f-012c-eea9-cc76-0000046dd388
+on database directory /Users/apostolis/Documents/workspace/apatar_V_1.12.12_repo/systemdb  
+
+Database Class Loader started - derby.database.classpath=''
+
+2010-12-16 10:11:38.517 GMT:
+Shutting down instance 601a400f-012c-eea9-cc76-0000046dd388
+----------------------------------------------------------------

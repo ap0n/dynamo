@@ -1,0 +1,89 @@
+*********************************
+Start date Thu Dec 16 12:11:33 EET 2010
+Version Apatar_v1.12.12
+JRE Version 1.6.0_22
+JRE Vendor Apple Inc.
+log4j.configuration = `file:/Users/apostolis/Documents/workspace/apatar_V_1.12.12_repo/log4j.properties`
+java.lang.ClassNotFoundException: com.apatar.xml.RssNodeFactory
+	at org.java.plugin.standard.StandardPluginClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at com.apatar.core.MainApatarPlugin.loadNodesPlugins(MainApatarPlugin.java:82)
+	at com.apatar.core.MainApatarPlugin.initApplication(MainApatarPlugin.java:134)
+	at com.apatar.ui.ApatarUiMain.initApplication(ApatarUiMain.java:219)
+	at org.java.plugin.boot.DefaultApplicationInitializer.initApplication(Unknown Source)
+	at org.java.plugin.boot.Boot.initApplication(Unknown Source)
+	at org.java.plugin.boot.Boot.boot(Unknown Source)
+	at org.java.plugin.boot.Boot.main(Unknown Source)
+*********************************
+Start date Thu Dec 16 12:11:34 EET 2010
+Version Apatar_v1.12.12
+JRE Version 1.6.0_22
+JRE Vendor Apple Inc.
+log4j.configuration = `file:/Users/apostolis/Documents/workspace/apatar_V_1.12.12_repo/log4j.properties`
+Exception in thread "AWT-EventQueue-0" java.lang.ArrayIndexOutOfBoundsException: 0
+	at javax.swing.plaf.basic.BasicTabbedPaneUI.tabForCoordinate(BasicTabbedPaneUI.java:1489)
+	at javax.swing.plaf.basic.BasicTabbedPaneUI.setRolloverTab(BasicTabbedPaneUI.java:559)
+	at javax.swing.plaf.basic.BasicTabbedPaneUI.access$2000(BasicTabbedPaneUI.java:37)
+	at javax.swing.plaf.basic.BasicTabbedPaneUI$Handler.mouseMoved(BasicTabbedPaneUI.java:3646)
+	at java.awt.Component.processMouseMotionEvent(Component.java:6397)
+	at javax.swing.JComponent.processMouseMotionEvent(JComponent.java:3285)
+	at java.awt.Component.processEvent(Component.java:6121)
+	at java.awt.Container.processEvent(Container.java:2085)
+	at java.awt.Component.dispatchEventImpl(Component.java:4714)
+	at java.awt.Container.dispatchEventImpl(Container.java:2143)
+	at java.awt.Component.dispatchEvent(Component.java:4544)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4621)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4295)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4212)
+	at java.awt.Container.dispatchEventImpl(Container.java:2129)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4544)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:635)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:296)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:205)
+	at java.awt.Dialog$1.run(Dialog.java:1046)
+	at java.awt.Dialog$3.run(Dialog.java:1098)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.Dialog.show(Dialog.java:1096)
+	at java.awt.Component.show(Component.java:1563)
+	at java.awt.Component.setVisible(Component.java:1515)
+	at java.awt.Window.setVisible(Window.java:842)
+	at java.awt.Dialog.setVisible(Dialog.java:986)
+	at com.apatar.transform.ui.JTransformDialog.showDialog(JTransformDialog.java:259)
+	at com.apatar.transform.TransformNode.realEdit(TransformNode.java:76)
+	at com.apatar.core.AbstractNode.edit(AbstractNode.java:120)
+	at com.apatar.ui.JWorkPane.configureNode(JWorkPane.java:715)
+	at com.apatar.ui.JWorkPane.mouseClicked(JWorkPane.java:419)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6355)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6117)
+	at java.awt.Container.processEvent(Container.java:2085)
+	at java.awt.Component.dispatchEventImpl(Component.java:4714)
+	at java.awt.Container.dispatchEventImpl(Container.java:2143)
+	at java.awt.Component.dispatchEvent(Component.java:4544)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4621)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4291)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4212)
+	at java.awt.Container.dispatchEventImpl(Container.java:2129)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4544)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:635)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:296)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:196)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:188)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+Start Reading from Sheet1
+RESPONSE STATUS NOT OK!
+RESPONSE STATUS NOT OK!
+RESPONSE STATUS NOT OK!
+RESPONSE STATUS NOT OK!
+RESPONSE STATUS NOT OK!
+RESPONSE STATUS NOT OK!
+RESPONSE STATUS NOT OK!
+RESPONSE STATUS NOT OK!
+RESPONSE STATUS NOT OK!
+RESPONSE STATUS NOT OK!

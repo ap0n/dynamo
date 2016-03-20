@@ -1,0 +1,267 @@
+*********************************
+Start date Thu Dec 16 12:11:33 EET 2010
+Version Apatar_v1.12.12
+JRE Version 1.6.0_22
+JRE Vendor Apple Inc.
+log4j.configuration = `file:/Users/apostolis/Documents/workspace/apatar_V_1.12.12_repo/log4j.properties`
+user.dir= `/Users/apostolis/Documents/workspace/apatar_V_1.12.12_repo`
+jdbc:derby:tempdb/application/temp_db;create=true
+*********************************
+Start date Thu Dec 16 12:11:34 EET 2010
+Version Apatar_v1.12.12
+JRE Version 1.6.0_22
+JRE Vendor Apple Inc.
+log4j.configuration = `file:/Users/apostolis/Documents/workspace/apatar_V_1.12.12_repo/log4j.properties`
+user.dir= `/Users/apostolis/Documents/workspace/apatar_V_1.12.12_repo`
+
+getSystemLookAndFeelClassName=`javax.swing.plaf.metal.MetalLookAndFeel`
+Project path=
+Configuration database closed.
+nodeClassParameter = `com.apatar.msexcel.MsExcelNode`
+nodeClassParameter = `tuc.apon.googleMaps.GoogleMapsNode`
+nodeClassParameter = `com.apatar.transform.TransformNode`
+nodeClassParameter = `com.apatar.msexcel.MsExcelColumnNode`
+nodeClassParameter = `com.apatar.core.ColumnNode`
+nodeClassParameter = `com.apatar.transform.TransformNode`
+nodeClassParameter = `com.apatar.core.ColumnNode`
+nodeClassParameter = `com.apatar.core.ColumnNode`
+nodeClassParameter = `com.apatar.core.ColumnNode`
+nodeClassParameter = `com.apatar.core.ColumnNode`
+nodeClassParameter = `com.apatar.validate.FilterNode`
+nodeClassParameter = `com.apatar.core.ColumnNode`
+nodeClassParameter = `com.apatar.functions.FunctionNode`
+nodeClassParameter = `com.apatar.functions.FunctionNode`
+nodeClassParameter = `tuc.ws.hotelsInfo.HotelsInfoNode`
+> Sheet1.address
+> Transform.referenceAddress
+nodeClassParameter = `com.apatar.msexcel.MsExcelColumnNode`
+nodeClassParameter = `com.apatar.core.ColumnNode`
+> getHotels.stars
+> com.apatar.functions.FunctionNode@19fa157c
+> com.apatar.functions.FunctionNode@71988d36
+nodeClassParameter = `com.apatar.core.ColumnNode`
+nodeClassParameter = `com.apatar.functions.FunctionNode`
+nodeClassParameter = `com.apatar.functions.FunctionNode`
+> Filter.address
+> Transform.address
+> Transform.addressInfo
+> Filter.name
+nodeClassParameter = `com.apatar.core.ColumnNode`
+nodeClassParameter = `com.apatar.core.ColumnNode`
+nodeClassParameter = `com.apatar.core.ColumnNode`
+nodeClassParameter = `com.apatar.core.ColumnNode`
+******************* Start Time = Thu Dec 16 12:14:13 EET 2010
+CREATE TABLE  temp1289475697283 ("address" VARCHAR(255), "F2" VARCHAR(255))
+Trying to DROP table before creating it. Table name `temp1289475697283`
+Failed to drop table `temp1289475697283`
+Table `temp1289475697283` created successfully
+UI query: `INSERT %post_insert% INTO temp1289475697283 ("address") VALUES (?)`
+UI query: `INSERT %post_insert% INTO temp1289475697283 ("address") VALUES (?)`
+UI query: `INSERT %post_insert% INTO temp1289475697283 ("address") VALUES (?)`
+UI query: `INSERT %post_insert% INTO temp1289475697283 ("address") VALUES (?)`
+CREATE TABLE  temp1289475714360 ("address" LONG VARCHAR, "addressInfo" LONG VARCHAR, "referenceAddress" LONG VARCHAR)
+Trying to DROP table before creating it. Table name `temp1289475714360`
+Failed to drop table `temp1289475714360`
+Table `temp1289475714360` created successfully
+UI query: `INSERT %post_insert% INTO temp1289475714360 ("referenceAddress") VALUES (?)`
+UI query: `INSERT %post_insert% INTO temp1289475714360 ("referenceAddress") VALUES (?)`
+UI query: `INSERT %post_insert% INTO temp1289475714360 ("referenceAddress") VALUES (?)`
+UI query: `INSERT %post_insert% INTO temp1289475714360 ("referenceAddress") VALUES (?)`
+CREATE TABLE  temp1289475741734 ("servRating" DOUBLE, "reviewURL" LONG VARCHAR, "address" LONG VARCHAR, "roomsRating" DOUBLE, "stars" BIGINT, "locRating" DOUBLE, "name" LONG VARCHAR, "valRating" DOUBLE, "cleanRating" DOUBLE, "overRating" DOUBLE, "hID" BIGINT, "sleepRating" DOUBLE)
+Trying to DROP table before creating it. Table name `temp1289475741734`
+Failed to drop table `temp1289475741734`
+Table `temp1289475741734` created successfully
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475741734 ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+CREATE TABLE  temp1289475731080True ("servRating" DECIMAL, "reviewURL" LONG VARCHAR, "address" LONG VARCHAR, "roomsRating" DECIMAL, "stars" NUMERIC, "locRating" DECIMAL, "name" LONG VARCHAR, "valRating" DECIMAL, "cleanRating" DECIMAL, "overRating" DECIMAL, "hID" NUMERIC, "sleepRating" DECIMAL)
+Trying to DROP table before creating it. Table name `temp1289475731080True`
+Failed to drop table `temp1289475731080True`
+Table `temp1289475731080True` created successfully
+UI query: `INSERT %post_insert% INTO temp1289475731080True ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475731080True ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475731080True ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475731080True ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475731080True ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475731080True ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475731080True ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475731080True ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475731080True ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475731080True ("servRating", "reviewURL", "address", "stars", "roomsRating", "valRating", "name", "locRating", "cleanRating", "overRating", "hID", "sleepRating") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+CREATE TABLE  temp1289475726815 ("address" LONG VARCHAR, "addressInfo" LONG VARCHAR, "referenceAddress" LONG VARCHAR)
+Trying to DROP table before creating it. Table name `temp1289475726815`
+Failed to drop table `temp1289475726815`
+Table `temp1289475726815` created successfully
+UI query: `INSERT %post_insert% INTO temp1289475726815 ("address", "addressInfo") VALUES (?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475726815 ("address", "addressInfo") VALUES (?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475726815 ("address", "addressInfo") VALUES (?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475726815 ("address", "addressInfo") VALUES (?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475726815 ("address", "addressInfo") VALUES (?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475726815 ("address", "addressInfo") VALUES (?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475726815 ("address", "addressInfo") VALUES (?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475726815 ("address", "addressInfo") VALUES (?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475726815 ("address", "addressInfo") VALUES (?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475726815 ("address", "addressInfo") VALUES (?, ?)`
+CREATE TABLE  temp1289475708479 ("address" LONG VARCHAR, "addressInfo" LONG VARCHAR, "referenceAddress" LONG VARCHAR)
+Trying to DROP table before creating it. Table name `temp1289475708479`
+Failed to drop table `temp1289475708479`
+Table `temp1289475708479` created successfully
+Shortest distance: 1739 meters
+Shortest distance: 3047 meters
+Shortest distance: 1478 meters
+Shortest distance: 12587 meters
+Shortest distance: 1739 meters
+Shortest distance: 8192 meters
+Shortest distance: 3855 meters
+Shortest distance: 1300 meters
+Shortest distance: 6760 meters
+Shortest distance: 7658 meters
+Shortest distance: 6904 meters
+Shortest distance: 7787 meters
+Shortest distance: 6653 meters
+Shortest distance: 16106 meters
+Shortest distance: 6904 meters
+Shortest distance: 6313 meters
+Shortest distance: 6532 meters
+Shortest distance: 6524 meters
+Shortest distance: 1761 meters
+Shortest distance: 894 meters
+Shortest distance: 7898 meters
+Shortest distance: 4329 meters
+Shortest distance: 1006 meters
+Shortest distance: 6466 meters
+Shortest distance: 7364 meters
+Shortest distance: 12686 meters
+Shortest distance: 16375 meters
+Shortest distance: 12435 meters
+Shortest distance: 2794 meters
+Shortest distance: 12686 meters
+UI query: `INSERT %post_insert% INTO temp1289475708479 ("address", "addressInfo", "referenceAddress") VALUES (?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475708479 ("address", "addressInfo", "referenceAddress") VALUES (?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475708479 ("address", "addressInfo", "referenceAddress") VALUES (?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475708479 ("address", "addressInfo", "referenceAddress") VALUES (?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475708479 ("address", "addressInfo", "referenceAddress") VALUES (?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475708479 ("address", "addressInfo", "referenceAddress") VALUES (?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475708479 ("address", "addressInfo", "referenceAddress") VALUES (?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475708479 ("address", "addressInfo", "referenceAddress") VALUES (?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475708479 ("address", "addressInfo", "referenceAddress") VALUES (?, ?, ?)`
+UI query: `INSERT %post_insert% INTO temp1289475708479 ("address", "addressInfo", "referenceAddress") VALUES (?, ?, ?)`
+******************* Finish Time = Thu Dec 16 12:14:32 EET 2010
+************* Total time = 18849
